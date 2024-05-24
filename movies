@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendações de Filmes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Recomendações de Filmes</h1>
+        <div class="movies">
+            <div class="movie" id="black-clover">
+                <h2>Black Clover</h2>
+                <img src="black_clover.jpg" alt="Black Clover">
+                <button onclick="showDetails('blackClover')">Ver Detalhes</button>
+                <p class="details" id="blackCloverDetails"></p>
+            </div>
+            <div class="movie" id="one-piece">
+                <h2>One Piece</h2>
+                <img src="one_piece.jpg" alt="One Piece">
+                <button onclick="showDetails('onePiece')">Ver Detalhes</button>
+                <p class="details" id="onePieceDetails"></p>
+            </div>  
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
